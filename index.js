@@ -11,7 +11,7 @@ var logger = new graylog2.graylog({
     facility: 'Node.js'
 });
 
-// logger.info("test");
+logger.log("Bee started");
 
 request
   .post('http://traditional-api.cloudapp.net:3000/objects')
