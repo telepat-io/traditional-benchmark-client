@@ -1,0 +1,2 @@
+traditional-swarm:
+  build: .
